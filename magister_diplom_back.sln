@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{FD3DA905-BC95-42DB-BC49-E00DA814A821}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{E9F58620-644F-4ED5-ABDF-8AE85739BCBB}"
+	ProjectSection(SolutionItems) = preProject
+		API\Controllers\FuzzyController.cs = API\Controllers\FuzzyController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dto", "Dto", "{D4853355-18CA-4890-BE07-198605FAAD53}"
+	ProjectSection(SolutionItems) = preProject
+		API\Dto\BlankDataDto.cs = API\Dto\BlankDataDto.cs
+		API\Dto\FinalScoreDto.cs = API\Dto\FinalScoreDto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{CC3A8F09-8C3C-44FA-9DCD-53E6AFCF9A14}"
+	ProjectSection(SolutionItems) = preProject
+		API\Interfaces\IFuzzyInferenceStagesService.cs = API\Interfaces\IFuzzyInferenceStagesService.cs
+		API\Interfaces\IFuzzyService.cs = API\Interfaces\IFuzzyService.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3DA905-BC95-42DB-BC49-E00DA814A821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3DA905-BC95-42DB-BC49-E00DA814A821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3DA905-BC95-42DB-BC49-E00DA814A821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3DA905-BC95-42DB-BC49-E00DA814A821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A45CCBF1-D7D3-4838-AC9E-AE629B5FCCE9}
+	EndGlobalSection
+EndGlobal
