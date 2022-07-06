@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyLogic", "FuzzyLogic\FuzzyLogic.csproj", "{C366D43A-AD0C-4BBC-81AD-E3F5900AF5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fuzzy", "Fuzzy\Fuzzy.csproj", "{0C40908B-F29F-42B6-983F-900A73E5690A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyUI", "FuzzyUI\FuzzyUI.csproj", "{535B06C5-6ED2-4850-A481-4D2DA94B1429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyGUI", "FuzzyGUI\FuzzyGUI.csproj", "{52AA1FFE-D543-4BB7-A2F0-2C12D77615EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C366D43A-AD0C-4BBC-81AD-E3F5900AF5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C366D43A-AD0C-4BBC-81AD-E3F5900AF5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C366D43A-AD0C-4BBC-81AD-E3F5900AF5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C366D43A-AD0C-4BBC-81AD-E3F5900AF5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C40908B-F29F-42B6-983F-900A73E5690A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C40908B-F29F-42B6-983F-900A73E5690A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C40908B-F29F-42B6-983F-900A73E5690A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C40908B-F29F-42B6-983F-900A73E5690A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535B06C5-6ED2-4850-A481-4D2DA94B1429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535B06C5-6ED2-4850-A481-4D2DA94B1429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535B06C5-6ED2-4850-A481-4D2DA94B1429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535B06C5-6ED2-4850-A481-4D2DA94B1429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52AA1FFE-D543-4BB7-A2F0-2C12D77615EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AA1FFE-D543-4BB7-A2F0-2C12D77615EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AA1FFE-D543-4BB7-A2F0-2C12D77615EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AA1FFE-D543-4BB7-A2F0-2C12D77615EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
